@@ -1,0 +1,139 @@
+.mainPage {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #16a34a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 16px;
+}
+
+.header nav a:hover {
+    color: #16a34a;
+}
+
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.checkOutButton {
+    padding: 10px 20px;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categoriesSection {
+    margin-bottom: 40px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.categoryCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.categoryCard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.saleSection {
+    margin: 40px 0;
+}
+
+.saleProducts {
+    display: grid; /* Изменено на grid */
+    grid-template-columns: repeat(5, 1fr); /* То же количество колонок, что и в categories */
+    gap: 20px; /* То же значение промежутка, что и в categories */
+}
+
+.productCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.productCard img { /* Добавлено для уменьшения размера изображений в секции Sale */
+    width: 100%; /* Полная ширина контейнера */
+    height: 150px; /* Фиксированная высота */
+    object-fit: cover; /* Соответствие размера */
+    border-radius: 10px; /* Закругление углов */
+}
+
+.price {
+    color: #16a34a;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: #6b7280;
+}
+
+.contactSection {
+    margin: 40px 0;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contactItem {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mapSection {
+    margin: 40px 0;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

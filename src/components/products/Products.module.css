@@ -1,0 +1,103 @@
+.productsPage {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #16a34a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar .menu a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 16px;
+}
+
+.navbar .menu a:hover {
+    color: #16a34a;
+}
+
+.sorting {
+    margin: 20px 0;
+}
+
+.sorting button {
+    padding: 10px 20px;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sorting button:hover {
+    background-color: #15803d; /* Темнее при наведении */
+}
+
+.productsSection {
+    margin: 40px 0;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.productCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.productCard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.discountPrice {
+    color: #16a34a; /* Цвет для цены со скидкой */
+    font-weight: bold;
+}
+
+.contactSection {
+    margin: 40px 0;
+}
+
+.contactDetails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

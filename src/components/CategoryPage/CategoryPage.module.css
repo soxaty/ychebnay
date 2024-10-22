@@ -1,0 +1,97 @@
+.header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.categoryPage {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #16a34a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 16px;
+}
+
+.header nav a:hover {
+    color: #16a34a;
+}
+
+.categoriesSection {
+    margin-bottom: 40px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.categoryCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s; /* Анимация при наведении */
+}
+
+.categoryCard:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+.categoryCard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contactSection {
+    margin: 40px 0;
+}
+
+.contactDetails {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
